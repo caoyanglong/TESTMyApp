@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/home_rd"
+            style="@style/navigation_bottom_radio"
+            android:drawableTop="@drawable/home_drawable_radiobutton"
+            android:text="@string/home"
+            />
+        <RadioButton
+            android:id="@+id/exchange_rd"
+            style="@style/navigation_bottom_radio"
+            android:drawableTop="@drawable/exchange_selector_radibutton"
+            android:text="@string/exchange"
+            />
+        <RadioButton
+            android:id="@+id/personal_rd"
+            style="@style/navigation_bottom_radio"
+            android:drawableTop="@drawable/personal_drawable_radiobutton"
+            android:text="@string/personal"
+            />
+</RadioGroup>

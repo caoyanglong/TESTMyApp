@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!--做出一个可折叠的toolbar 必须做到以下三点
+    1，coordiantorlayout 作为父容器的布局
+    2，给需要滑动的组件设置 layout_behavior
+    3，collapsingtoolbarlayout 包含一个imageview 和 toolbar
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp36"
+        android:background="@color/red"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp20"
+            android:layout_centerInParent="true"
+            android:text="@string/home"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_below="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radio_group"
+        ></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_rd"
+            style="@style/navigation_bottom_radio"
+            android:checked="true"
+            android:drawableTop="@drawable/home_drawable_radiobutton"
+            android:text="@string/home" />
+
+        <RadioButton
+            android:id="@+id/exchange_rd"
+            style="@style/navigation_bottom_radio"
+            android:drawableTop="@drawable/exchange_selector_radibutton"
+            android:text="@string/exchange" />
+
+        <RadioButton
+            android:id="@+id/personal_rd"
+            style="@style/navigation_bottom_radio"
+            android:drawableTop="@drawable/personal_drawable_radiobutton"
+            android:text="@string/personal" />
+    </RadioGroup>
+</RelativeLayout>

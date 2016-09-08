@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\login_edit_pressed.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\login_edit_pressed.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\account_icon.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\account_icon.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\search_clear_pressed.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\search_clear_pressed.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\edit_indicator.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\edit_indicator.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\login_edit_normal.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\login_edit_normal.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\icon_user.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_user.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\search_clear_normal.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\search_clear_normal.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_style_one_normal.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_style_one_normal.png"
+    },
+    {
+        "merged": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\btn_style_one_pressed.png",
+        "source": "E:\\work\\EELiu\\ClearEditText\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\btn_style_one_pressed.png"
+    }
+]

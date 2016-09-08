@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<corners android:radius="10dp" />
+   <!-- 填充橘黄色 -->
+    <solid android:color="#FFD700"/>
+    <stroke android:color="#FFD700"/>
+    <!-- 可以设置  textview  button  字体 距离 的内边距 -->
+    <padding 
+        android:top="10dp"
+        android:bottom="10dp"
+        />
+</shape>

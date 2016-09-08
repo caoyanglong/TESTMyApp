@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF0000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="qian_jing_se">#FFFFFF</color>
+    <color name="huise_ziti">#A1A1A1</color>
+    <color name="blue">#3598DB</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

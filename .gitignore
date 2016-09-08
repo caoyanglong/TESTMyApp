@@ -1,0 +1,12 @@
+/build/
+/.gradle/
+/.DS_Store
+/app/.DS_Store
+/app/build/
+/app/libs/.DS_Store
+/app/src/main/.DS_Store
+/dep/engine
+/dep/.DS_Store
+/local.properties
+/.idea/
+/app/*.iml

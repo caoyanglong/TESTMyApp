@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lfeng.eeliu" >
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!--系统级别的dialog-->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"></uses-permission>
+    <!--添加访问网络的状态-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!--读取手机状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!--读取用户联系人权限-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <!--读写内存卡的权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication"
+        >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.StartAppTheme"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            ></activity>
+
+        <activity android:name=".MainNewContainerActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".ExchangeActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".RegisterActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".account.RegisterActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".ForgetPassWordActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".PersonalFileDetailActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".MyMessageActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".ExchangeHistoryActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".MyFriendsActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".AboutActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".AddFriendsActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>
